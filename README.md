@@ -1,2 +1,2 @@
 # Data-Types 
-Data types made in c++ using classic pointers
+Data types made in c++ to get better understanding of them
