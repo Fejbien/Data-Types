@@ -1,6 +1,6 @@
 #include <iostream>
 
-//	Data type: Queue
+//	Data type: HashTable
 /*
 	
 */
@@ -11,20 +11,10 @@ namespace HashTable
 	class HashTable
 	{
 	public:
-		Queue(int size);
-		~Queue();
-
-		void Enqueue(T value);
-		T Dequeue();
-		bool Empty();
-		bool Full();
-		int Size();
+		HashTable(int size);
+		~HashTable();
 
 	private:
-		T* array;
-		int size;
-
-		int write;
-		int read;
+		
 	};
 }
